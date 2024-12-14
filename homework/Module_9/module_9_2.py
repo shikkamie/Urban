@@ -14,4 +14,3 @@ third_result = {x: len(x) for x in first_strings + second_strings if len(x) % 2 
 
 print(f"Third result: {third_result}")
 
-#
