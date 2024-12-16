@@ -2,7 +2,7 @@
 
 def is_prime(func):
     def wrapper(*args):
-        is_prime = 'Число простое'
+        is_primed = 'Число простое'
         not_prime = 'Число не простое'
         res = func(*args)
         if res < 2:
@@ -12,7 +12,7 @@ def is_prime(func):
             if res % i == 0:
                 print(not_prime)
                 return res
-        print(is_prime)
+        print(is_primed)
         return res
     return wrapper
 
