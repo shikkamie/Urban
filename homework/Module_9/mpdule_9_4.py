@@ -30,3 +30,4 @@ print(first_ball())
 print(first_ball())
 
 print(first_ball())
+print(first_ball())
